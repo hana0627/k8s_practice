@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  namespace: hana-app
+  name: mysql-config
+
+data:
+  mysql_host: "mysql-service"
+  mysql_port: "3306"
+  mysql_nane: "sample_app"
+
+

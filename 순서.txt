@@ -1,0 +1,10 @@
+./gradlew clean build
+docker build -t spring .
+kubectl apply -f namespace.yml
+kubectl apply -f secret.yml
+kubectl apply -f configMap.yml
+kubectl apply -f deployment.yml
+kubectl apply -f service.yml
+kubectl get pods -n hana-app
+
+!!스프링 이미지를 제대로 재빌드 안해서 오류가 발생했었다.!!
