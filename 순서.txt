@@ -5,6 +5,6 @@ kubectl apply -f secret.yml
 kubectl apply -f configMap.yml
 kubectl apply -f deployment.yml
 kubectl apply -f service.yml
-kubectl get pods -n hana-app
+kubectl get pods -n my-app
 
 !!스프링 이미지를 제대로 재빌드 안해서 오류가 발생했었다.!!

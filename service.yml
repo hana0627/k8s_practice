@@ -3,7 +3,7 @@ kind: Service
 
 metadata:
   name: spring-service
-  namespace: hana-app
+  namespace: my-app
 
 spec:
   type: NodePort
@@ -22,7 +22,7 @@ kind: Service
 
 metadata:
   name: mysql-service
-  namespace: hana-app
+  namespace: my-app
 
 spec:
   type: NodePort

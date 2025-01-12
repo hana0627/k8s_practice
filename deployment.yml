@@ -3,7 +3,7 @@ kind: Deployment
 
 metadata:
   name: spring-deployment
-  namespace: hana-app
+  namespace: my-app
 
 spec:
   replicas: 1
@@ -55,7 +55,7 @@ kind: Deployment
 
 metadata:
   name: mysql-deployment
-  namespace: hana-app
+  namespace: my-app
 
 spec:
   replicas: 1
